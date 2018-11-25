@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C321AA619B00A9EA3D /* AppDelegate.swift */; };
+		30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C521AA619B00A9EA3D /* ViewController.swift */; };
+		30B871C921AA619B00A9EA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B871C721AA619B00A9EA3D /* Main.storyboard */; };
+		30B871CC21AA619B00A9EA3D /* darrell_dates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B871CA21AA619B00A9EA3D /* darrell_dates.xcdatamodeld */; };
+		30B871CE21AA619D00A9EA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B871CD21AA619D00A9EA3D /* Assets.xcassets */; };
+		30B871D121AA619D00A9EA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B871CF21AA619D00A9EA3D /* LaunchScreen.storyboard */; };
+		30B871DC21AA619D00A9EA3D /* darrell_datesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */; };
+		30B871E721AA619D00A9EA3D /* darrell_datesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30B871D821AA619D00A9EA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30B871B821AA619B00A9EA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30B871BF21AA619B00A9EA3D;
+			remoteInfo = "darrell dates";
+		};
+		30B871E321AA619D00A9EA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30B871B821AA619B00A9EA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30B871BF21AA619B00A9EA3D;
+			remoteInfo = "darrell dates";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30B871C021AA619B00A9EA3D /* darrell dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "darrell dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871C321AA619B00A9EA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30B871C521AA619B00A9EA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B871C821AA619B00A9EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30B871CB21AA619B00A9EA3D /* darrell_dates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = darrell_dates.xcdatamodel; sourceTree = "<group>"; };
+		30B871CD21AA619D00A9EA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B871D021AA619D00A9EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B871D221AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "darrell datesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesTests.swift; sourceTree = "<group>"; };
+		30B871DD21AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "darrell datesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesUITests.swift; sourceTree = "<group>"; };
+		30B871E821AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B871BD21AA619B00A9EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871D421AA619D00A9EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871DF21AA619D00A9EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B871B721AA619B00A9EA3D = {
+			isa = PBXGroup;
+			children = (
+				30B871C221AA619B00A9EA3D /* darrell dates */,
+				30B871DA21AA619D00A9EA3D /* darrell datesTests */,
+				30B871E521AA619D00A9EA3D /* darrell datesUITests */,
+				30B871C121AA619B00A9EA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30B871C121AA619B00A9EA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B871C021AA619B00A9EA3D /* darrell dates.app */,
+				30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */,
+				30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B871C221AA619B00A9EA3D /* darrell dates */ = {
+			isa = PBXGroup;
+			children = (
+				30B871C321AA619B00A9EA3D /* AppDelegate.swift */,
+				30B871C521AA619B00A9EA3D /* ViewController.swift */,
+				30B871C721AA619B00A9EA3D /* Main.storyboard */,
+				30B871CD21AA619D00A9EA3D /* Assets.xcassets */,
+				30B871CF21AA619D00A9EA3D /* LaunchScreen.storyboard */,
+				30B871D221AA619D00A9EA3D /* Info.plist */,
+				30B871CA21AA619B00A9EA3D /* darrell_dates.xcdatamodeld */,
+			);
+			path = "darrell dates";
+			sourceTree = "<group>";
+		};
+		30B871DA21AA619D00A9EA3D /* darrell datesTests */ = {
+			isa = PBXGroup;
+			children = (
+				30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */,
+				30B871DD21AA619D00A9EA3D /* Info.plist */,
+			);
+			path = "darrell datesTests";
+			sourceTree = "<group>";
+		};
+		30B871E521AA619D00A9EA3D /* darrell datesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */,
+				30B871E821AA619D00A9EA3D /* Info.plist */,
+			);
+			path = "darrell datesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B871BF21AA619B00A9EA3D /* darrell dates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell dates" */;
+			buildPhases = (
+				30B871BC21AA619B00A9EA3D /* Sources */,
+				30B871BD21AA619B00A9EA3D /* Frameworks */,
+				30B871BE21AA619B00A9EA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "darrell dates";
+			productName = "darrell dates";
+			productReference = 30B871C021AA619B00A9EA3D /* darrell dates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30B871D621AA619D00A9EA3D /* darrell datesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesTests" */;
+			buildPhases = (
+				30B871D321AA619D00A9EA3D /* Sources */,
+				30B871D421AA619D00A9EA3D /* Frameworks */,
+				30B871D521AA619D00A9EA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B871D921AA619D00A9EA3D /* PBXTargetDependency */,
+			);
+			name = "darrell datesTests";
+			productName = "darrell datesTests";
+			productReference = 30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30B871E121AA619D00A9EA3D /* darrell datesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesUITests" */;
+			buildPhases = (
+				30B871DE21AA619D00A9EA3D /* Sources */,
+				30B871DF21AA619D00A9EA3D /* Frameworks */,
+				30B871E021AA619D00A9EA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B871E421AA619D00A9EA3D /* PBXTargetDependency */,
+			);
+			name = "darrell datesUITests";
+			productName = "darrell datesUITests";
+			productReference = 30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B871B821AA619B00A9EA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = defreitas;
+				TargetAttributes = {
+					30B871BF21AA619B00A9EA3D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					30B871D621AA619D00A9EA3D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 30B871BF21AA619B00A9EA3D;
+					};
+					30B871E121AA619D00A9EA3D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 30B871BF21AA619B00A9EA3D;
+					};
+				};
+			};
+			buildConfigurationList = 30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "darrell dates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B871B721AA619B00A9EA3D;
+			productRefGroup = 30B871C121AA619B00A9EA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B871BF21AA619B00A9EA3D /* darrell dates */,
+				30B871D621AA619D00A9EA3D /* darrell datesTests */,
+				30B871E121AA619D00A9EA3D /* darrell datesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B871BE21AA619B00A9EA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B871D121AA619D00A9EA3D /* LaunchScreen.storyboard in Resources */,
+				30B871CE21AA619D00A9EA3D /* Assets.xcassets in Resources */,
+				30B871C921AA619B00A9EA3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871D521AA619D00A9EA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871E021AA619D00A9EA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B871BC21AA619B00A9EA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */,
+				30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */,
+				30B871CC21AA619B00A9EA3D /* darrell_dates.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871D321AA619D00A9EA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B871DC21AA619D00A9EA3D /* darrell_datesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B871DE21AA619D00A9EA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B871E721AA619D00A9EA3D /* darrell_datesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B871D921AA619D00A9EA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30B871BF21AA619B00A9EA3D /* darrell dates */;
+			targetProxy = 30B871D821AA619D00A9EA3D /* PBXContainerItemProxy */;
+		};
+		30B871E421AA619D00A9EA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30B871BF21AA619B00A9EA3D /* darrell dates */;
+			targetProxy = 30B871E321AA619D00A9EA3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30B871C721AA619B00A9EA3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B871C821AA619B00A9EA3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30B871CF21AA619D00A9EA3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B871D021AA619D00A9EA3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B871E921AA619D00A9EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30B871EA21AA619D00A9EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B871EC21AA619D00A9EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell dates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-dates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30B871ED21AA619D00A9EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell dates/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-dates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30B871EF21AA619D00A9EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell datesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-datesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darrell dates.app/darrell dates";
+			};
+			name = Debug;
+		};
+		30B871F021AA619D00A9EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell datesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-datesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darrell dates.app/darrell dates";
+			};
+			name = Release;
+		};
+		30B871F221AA619D00A9EA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell datesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-datesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "darrell dates";
+			};
+			name = Debug;
+		};
+		30B871F321AA619D00A9EA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q89VF6L68U;
+				INFOPLIST_FILE = "darrell datesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-datesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "darrell dates";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "darrell dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B871E921AA619D00A9EA3D /* Debug */,
+				30B871EA21AA619D00A9EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B871EC21AA619D00A9EA3D /* Debug */,
+				30B871ED21AA619D00A9EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B871EF21AA619D00A9EA3D /* Debug */,
+				30B871F021AA619D00A9EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B871F221AA619D00A9EA3D /* Debug */,
+				30B871F321AA619D00A9EA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30B871CA21AA619B00A9EA3D /* darrell_dates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30B871CB21AA619B00A9EA3D /* darrell_dates.xcdatamodel */,
+			);
+			currentVersion = 30B871CB21AA619B00A9EA3D /* darrell_dates.xcdatamodel */;
+			path = darrell_dates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30B871B821AA619B00A9EA3D /* Project object */;
+}
