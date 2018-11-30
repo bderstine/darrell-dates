@@ -12,9 +12,9 @@ class Quotes{
     
     var quotes: [String] = []
     
-    init(){
+    init(source:String){
         //Read in quotes from plist file
-        if let URL = Bundle.main.url(forResource: "quotes", withExtension: "plist") {
+        if let URL = Bundle.main.url(forResource: source, withExtension: "plist") {
             if let quotesFromPlist = NSArray(contentsOf: URL) as? [String] {
                 for quote in quotesFromPlist {
                     quotes.append(quote.replacingOccurrences(of: "^\\s*", with: "", options: .regularExpression))

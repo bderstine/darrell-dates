@@ -23,6 +23,7 @@
 		30B871D121AA619D00A9EA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B871CF21AA619D00A9EA3D /* LaunchScreen.storyboard */; };
 		30B871DC21AA619D00A9EA3D /* darrell_datesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */; };
 		30B871E721AA619D00A9EA3D /* darrell_datesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */; };
+		30BF3F1B21B11334000EFF5F /* bio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30BF3F1A21B11334000EFF5F /* bio.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "darrell datesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesUITests.swift; sourceTree = "<group>"; };
 		30B871E821AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BF3F1A21B11334000EFF5F /* bio.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = bio.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				305019F121AE606D0075E294 /* AboutPanelViewController.swift */,
 				30535C9721AE616E008E43C3 /* Quotes.swift */,
 				30535C9921AE6196008E43C3 /* quotes.plist */,
+				30BF3F1A21B11334000EFF5F /* bio.plist */,
 				30B871CD21AA619D00A9EA3D /* Assets.xcassets */,
 				30B871CF21AA619D00A9EA3D /* LaunchScreen.storyboard */,
 				30B871D221AA619D00A9EA3D /* Info.plist */,
@@ -259,6 +262,7 @@
 				30B871D121AA619D00A9EA3D /* LaunchScreen.storyboard in Resources */,
 				30B871CE21AA619D00A9EA3D /* Assets.xcassets in Resources */,
 				30B871C921AA619B00A9EA3D /* Main.storyboard in Resources */,
+				30BF3F1B21B11334000EFF5F /* bio.plist in Resources */,
 				30535C9A21AE6196008E43C3 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

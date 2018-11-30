@@ -9,8 +9,10 @@
 import UIKit
 
 class AboutPanelViewController: UIViewController {
-    let quotes:Quotes = Quotes()
+    let quotes:Quotes = Quotes(source: "quotes")
+    let bio:Quotes = Quotes(source:"bio")
     @IBOutlet weak var aboutHeader: UILabel!
+    @IBOutlet weak var about: UILabel!
     @IBOutlet weak var eggPlant: UILabel!
     
     override func viewDidLoad() {
@@ -21,6 +23,7 @@ class AboutPanelViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         aboutHeader.text = quotes.getQuote()
+        about.text = bio.getQuote()
         
     }
 
