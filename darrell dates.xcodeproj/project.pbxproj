@@ -24,6 +24,7 @@
 		30B871DC21AA619D00A9EA3D /* darrell_datesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */; };
 		30B871E721AA619D00A9EA3D /* darrell_datesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */; };
 		30BF3F1B21B11334000EFF5F /* bio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30BF3F1A21B11334000EFF5F /* bio.plist */; };
+		30F0141C21B4A1C900ECEE37 /* FIleDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F0141B21B4A1C900ECEE37 /* FIleDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesUITests.swift; sourceTree = "<group>"; };
 		30B871E821AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BF3F1A21B11334000EFF5F /* bio.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = bio.plist; sourceTree = "<group>"; };
+		30F0141B21B4A1C900ECEE37 /* FIleDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIleDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				305019E321AA7FED0075E294 /* CustomTabBar.swift */,
 				305019F121AE606D0075E294 /* AboutPanelViewController.swift */,
 				30535C9721AE616E008E43C3 /* Quotes.swift */,
+				30F0141B21B4A1C900ECEE37 /* FIleDownloader.swift */,
 				30535C9921AE6196008E43C3 /* quotes.plist */,
 				30BF3F1A21B11334000EFF5F /* bio.plist */,
 				30B871CD21AA619D00A9EA3D /* Assets.xcassets */,
@@ -292,6 +295,7 @@
 				305019F221AE606D0075E294 /* AboutPanelViewController.swift in Sources */,
 				30535C9821AE616E008E43C3 /* Quotes.swift in Sources */,
 				30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */,
+				30F0141C21B4A1C900ECEE37 /* FIleDownloader.swift in Sources */,
 				305019E621AB06EC0075E294 /* Matches.swift in Sources */,
 				305019E421AA7FED0075E294 /* CustomTabBar.swift in Sources */,
 				305019F021ACA7E50075E294 /* PotentialMatch.swift in Sources */,

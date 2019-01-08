@@ -9,6 +9,13 @@
 import UIKit
 
 class MatchTableView: UITableViewController {
+    
+    let tasks=["Short walk",
+               "Audiometry",
+               "Finger tapping",
+               "Reaction time",
+               "Spatial span memory"
+    ]
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return matches.countMatches()
