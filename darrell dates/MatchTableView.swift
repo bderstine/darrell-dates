@@ -9,13 +9,6 @@
 import UIKit
 
 class MatchTableView: UITableViewController {
-    
-    let tasks=["Short walk",
-               "Audiometry",
-               "Finger tapping",
-               "Reaction time",
-               "Spatial span memory"
-    ]
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return matches.countMatches()
@@ -42,6 +35,22 @@ class MatchTableView: UITableViewController {
 
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Here")
+        
+//        
+//        if let tabBarController = self.window!.rootViewController as? UITabBarController {
+//            tabBarController.selectedIndex = 4
+//        }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "ProfileView")
+        self.present(controller, animated: true, completion: nil)
+        
+        //let newViewController = ProfileViewController()
+        //self.present(newViewController, animated: true)
+        //self.navigationController?.pushViewController(newViewController, animated: true)
+    }
 
     /*
     // Only override draw() if you perform custom drawing.

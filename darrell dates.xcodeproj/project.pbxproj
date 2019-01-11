@@ -15,6 +15,7 @@
 		305019F221AE606D0075E294 /* AboutPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019F121AE606D0075E294 /* AboutPanelViewController.swift */; };
 		30535C9821AE616E008E43C3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30535C9721AE616E008E43C3 /* Quotes.swift */; };
 		30535C9A21AE6196008E43C3 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30535C9921AE6196008E43C3 /* quotes.plist */; };
+		307A10D321E857FE00274DB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307A10D221E857FE00274DB9 /* ProfileViewController.swift */; };
 		30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C321AA619B00A9EA3D /* AppDelegate.swift */; };
 		30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C521AA619B00A9EA3D /* ViewController.swift */; };
 		30B871C921AA619B00A9EA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B871C721AA619B00A9EA3D /* Main.storyboard */; };
@@ -53,6 +54,7 @@
 		305019F121AE606D0075E294 /* AboutPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPanelViewController.swift; sourceTree = "<group>"; };
 		30535C9721AE616E008E43C3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		30535C9921AE6196008E43C3 /* quotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
+		307A10D221E857FE00274DB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		30B871C021AA619B00A9EA3D /* darrell dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "darrell dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871C321AA619B00A9EA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B871C521AA619B00A9EA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		30B871C221AA619B00A9EA3D /* darrell dates */ = {
 			isa = PBXGroup;
 			children = (
+				307A10D221E857FE00274DB9 /* ProfileViewController.swift */,
 				30B871C721AA619B00A9EA3D /* Main.storyboard */,
 				305019EF21ACA7E50075E294 /* PotentialMatch.swift */,
 				30B871C321AA619B00A9EA3D /* AppDelegate.swift */,
@@ -297,6 +300,7 @@
 				30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */,
 				30F0141C21B4A1C900ECEE37 /* FIleDownloader.swift in Sources */,
 				305019E621AB06EC0075E294 /* Matches.swift in Sources */,
+				307A10D321E857FE00274DB9 /* ProfileViewController.swift in Sources */,
 				305019E421AA7FED0075E294 /* CustomTabBar.swift in Sources */,
 				305019F021ACA7E50075E294 /* PotentialMatch.swift in Sources */,
 				30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */,
