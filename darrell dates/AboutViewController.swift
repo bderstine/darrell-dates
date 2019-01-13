@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AboutPanelViewController: UIViewController {
+class AboutViewController: UIViewController {
     let quotes:Quotes = Quotes(source: "quotes")
     let bio:Quotes = Quotes(source:"bio")
     @IBOutlet weak var aboutHeader: UILabel!

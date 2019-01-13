@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		305019E421AA7FED0075E294 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019E321AA7FED0075E294 /* CustomTabBar.swift */; };
+		3031C0EB21EAE4E6007C1FA7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031C0EA21EAE4E6007C1FA7 /* TabBarController.swift */; };
+		305019E421AA7FED0075E294 /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019E321AA7FED0075E294 /* MatchViewController.swift */; };
 		305019E621AB06EC0075E294 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019E521AB06EC0075E294 /* Matches.swift */; };
 		305019E821AB07F60075E294 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019E721AB07F60075E294 /* Match.swift */; };
-		305019EC21AB4EDC0075E294 /* MatchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019EB21AB4EDC0075E294 /* MatchTableView.swift */; };
+		305019EC21AB4EDC0075E294 /* ListOfMatchewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019EB21AB4EDC0075E294 /* ListOfMatchewViewController.swift */; };
 		305019F021ACA7E50075E294 /* PotentialMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019EF21ACA7E50075E294 /* PotentialMatch.swift */; };
-		305019F221AE606D0075E294 /* AboutPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019F121AE606D0075E294 /* AboutPanelViewController.swift */; };
+		305019F221AE606D0075E294 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305019F121AE606D0075E294 /* AboutViewController.swift */; };
 		30535C9821AE616E008E43C3 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30535C9721AE616E008E43C3 /* Quotes.swift */; };
 		30535C9A21AE6196008E43C3 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30535C9921AE6196008E43C3 /* quotes.plist */; };
 		307A10D321E857FE00274DB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307A10D221E857FE00274DB9 /* ProfileViewController.swift */; };
 		30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C321AA619B00A9EA3D /* AppDelegate.swift */; };
-		30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C521AA619B00A9EA3D /* ViewController.swift */; };
+		30B871C621AA619B00A9EA3D /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B871C521AA619B00A9EA3D /* LaunchScreenController.swift */; };
 		30B871C921AA619B00A9EA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B871C721AA619B00A9EA3D /* Main.storyboard */; };
 		30B871CC21AA619B00A9EA3D /* darrell_dates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B871CA21AA619B00A9EA3D /* darrell_dates.xcdatamodeld */; };
 		30B871CE21AA619D00A9EA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B871CD21AA619D00A9EA3D /* Assets.xcassets */; };
@@ -46,18 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305019E321AA7FED0075E294 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		3031C0EA21EAE4E6007C1FA7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		305019E321AA7FED0075E294 /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
 		305019E521AB06EC0075E294 /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
 		305019E721AB07F60075E294 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
-		305019EB21AB4EDC0075E294 /* MatchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableView.swift; sourceTree = "<group>"; };
+		305019EB21AB4EDC0075E294 /* ListOfMatchewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfMatchewViewController.swift; sourceTree = "<group>"; };
 		305019EF21ACA7E50075E294 /* PotentialMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotentialMatch.swift; sourceTree = "<group>"; };
-		305019F121AE606D0075E294 /* AboutPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPanelViewController.swift; sourceTree = "<group>"; };
+		305019F121AE606D0075E294 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		30535C9721AE616E008E43C3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		30535C9921AE6196008E43C3 /* quotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 		307A10D221E857FE00274DB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		30B871C021AA619B00A9EA3D /* darrell dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "darrell dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871C321AA619B00A9EA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30B871C521AA619B00A9EA3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B871C521AA619B00A9EA3D /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		30B871C821AA619B00A9EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B871CB21AA619B00A9EA3D /* darrell_dates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = darrell_dates.xcdatamodel; sourceTree = "<group>"; };
 		30B871CD21AA619D00A9EA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,16 +123,17 @@
 		30B871C221AA619B00A9EA3D /* darrell dates */ = {
 			isa = PBXGroup;
 			children = (
+				30B871C521AA619B00A9EA3D /* LaunchScreenController.swift */,
+				3031C0EA21EAE4E6007C1FA7 /* TabBarController.swift */,
+				305019E321AA7FED0075E294 /* MatchViewController.swift */,
+				305019EB21AB4EDC0075E294 /* ListOfMatchewViewController.swift */,
+				305019F121AE606D0075E294 /* AboutViewController.swift */,
 				307A10D221E857FE00274DB9 /* ProfileViewController.swift */,
 				30B871C721AA619B00A9EA3D /* Main.storyboard */,
 				305019EF21ACA7E50075E294 /* PotentialMatch.swift */,
 				30B871C321AA619B00A9EA3D /* AppDelegate.swift */,
-				30B871C521AA619B00A9EA3D /* ViewController.swift */,
-				305019EB21AB4EDC0075E294 /* MatchTableView.swift */,
 				305019E521AB06EC0075E294 /* Matches.swift */,
 				305019E721AB07F60075E294 /* Match.swift */,
-				305019E321AA7FED0075E294 /* CustomTabBar.swift */,
-				305019F121AE606D0075E294 /* AboutPanelViewController.swift */,
 				30535C9721AE616E008E43C3 /* Quotes.swift */,
 				30F0141B21B4A1C900ECEE37 /* FIleDownloader.swift */,
 				30535C9921AE6196008E43C3 /* quotes.plist */,
@@ -294,16 +297,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				305019EC21AB4EDC0075E294 /* MatchTableView.swift in Sources */,
-				305019F221AE606D0075E294 /* AboutPanelViewController.swift in Sources */,
+				305019EC21AB4EDC0075E294 /* ListOfMatchewViewController.swift in Sources */,
+				305019F221AE606D0075E294 /* AboutViewController.swift in Sources */,
 				30535C9821AE616E008E43C3 /* Quotes.swift in Sources */,
-				30B871C621AA619B00A9EA3D /* ViewController.swift in Sources */,
+				30B871C621AA619B00A9EA3D /* LaunchScreenController.swift in Sources */,
 				30F0141C21B4A1C900ECEE37 /* FIleDownloader.swift in Sources */,
 				305019E621AB06EC0075E294 /* Matches.swift in Sources */,
 				307A10D321E857FE00274DB9 /* ProfileViewController.swift in Sources */,
-				305019E421AA7FED0075E294 /* CustomTabBar.swift in Sources */,
+				305019E421AA7FED0075E294 /* MatchViewController.swift in Sources */,
 				305019F021ACA7E50075E294 /* PotentialMatch.swift in Sources */,
 				30B871C421AA619B00A9EA3D /* AppDelegate.swift in Sources */,
+				3031C0EB21EAE4E6007C1FA7 /* TabBarController.swift in Sources */,
 				30B871CC21AA619B00A9EA3D /* darrell_dates.xcdatamodeld in Sources */,
 				305019E821AB07F60075E294 /* Match.swift in Sources */,
 			);

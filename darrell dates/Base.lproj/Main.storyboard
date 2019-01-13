@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Launch Screen Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LaunchScreenController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,7 +52,7 @@
         <!--tableview.dequeuereusablecell-->
         <scene sceneID="6Jz-Jb-HKA">
             <objects>
-                <viewController title="tableview.dequeuereusablecell" id="Mhc-mg-UW3" customClass="MatchTableView" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="tableview.dequeuereusablecell" id="Mhc-mg-UW3" customClass="ListOfMatchewViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0q0-2M-A3Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -106,7 +106,7 @@
         <!--Match-->
         <scene sceneID="bhG-62-Az0">
             <objects>
-                <viewController id="Q3T-ku-TwN" customClass="CustomTabBar" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q3T-ku-TwN" customClass="MatchViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kdW-FE-a2Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -164,7 +164,7 @@
         <!--About-->
         <scene sceneID="W36-SD-R3n">
             <objects>
-                <viewController id="kFO-EQ-cde" customClass="AboutPanelViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kFO-EQ-cde" customClass="AboutViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="29B-x2-L99">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,7 +222,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="TH7-Zr-jid">
             <objects>
-                <tabBarController id="KdV-lM-VKd" sceneMemberID="viewController">
+                <tabBarController id="KdV-lM-VKd" customClass="TabBarController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="j2v-HN-LXZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

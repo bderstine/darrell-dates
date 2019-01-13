@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MatchTableView: UITableViewController {
+class ListOfMatchewViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return matches.countMatches()

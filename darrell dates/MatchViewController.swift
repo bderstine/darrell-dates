@@ -12,7 +12,7 @@ var matches = Matches()
 let fileHelper = FileDownloader()
 
 
-class CustomTabBar: UIViewController  {
+class MatchViewController: UIViewController  {
 
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var like: UILabel!
