@@ -36,28 +36,7 @@ class ListOfMatchewViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Here")
-        
-//        
-//        if let tabBarController = self.window!.rootViewController as? UITabBarController {
-//            tabBarController.selectedIndex = 4
-//        }
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "ProfileView")
-        self.present(controller, animated: true, completion: nil)
-        
-        //let newViewController = ProfileViewController()
-        //self.present(newViewController, animated: true)
-        //self.navigationController?.pushViewController(newViewController, animated: true)
+        self.tabBarController?.selectedIndex = 3
     }
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
 
 }
