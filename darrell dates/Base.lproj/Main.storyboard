@@ -68,7 +68,7 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Chat" image="collaboration" id="Jz8-mr-aKi"/>
+                    <tabBarItem key="tabBarItem" title="Matches" image="albums" id="Jz8-mr-aKi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMR-Rb-zjd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,7 +103,7 @@
             </objects>
             <point key="canvasLocation" x="801" y="1163"/>
         </scene>
-        <!--Match-->
+        <!--Swipe-->
         <scene sceneID="bhG-62-Az0">
             <objects>
                 <viewController id="Q3T-ku-TwN" customClass="MatchViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
@@ -149,7 +149,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4IJ-oH-VLQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Match" image="heart" id="gsZ-ZV-IK3"/>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="heart" id="gsZ-ZV-IK3"/>
                     <connections>
                         <outlet property="Name" destination="gMd-84-tZY" id="fwG-gt-Mdn"/>
                         <outlet property="dislike" destination="neX-3E-5bM" id="xqS-eQ-aFx"/>
@@ -241,8 +241,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="albums" width="30" height="30"/>
         <image name="chat" width="30" height="30"/>
-        <image name="collaboration" width="30" height="30"/>
         <image name="for_you" width="30" height="30"/>
         <image name="heart" width="30" height="30"/>
         <image name="me-199" width="1080" height="1920"/>
