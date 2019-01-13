@@ -37,7 +37,7 @@ class SwipeViewController: UIViewController  {
     @IBOutlet weak var like: UILabel!
     @IBOutlet weak var dislike: UILabel!
     @IBOutlet weak var name: UILabel!
-    var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", image: "me-1", name:"")
+    var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", image: "me-main", name:"")
     
     
     fileprivate func getrandomImage() {
@@ -49,7 +49,7 @@ class SwipeViewController: UIViewController  {
         let imageURL = URL.init(string:baseURL)
         image.downloadedFrom(url: imageURL!)
         
-        potentialMatch = PotentialMatch(id: rand, description: "\(rand)", image: "me-\(rand)", name:"Darrell")
+        potentialMatch = PotentialMatch(id: rand, description: "\(rand)", image: "me-main", name:"Darrell")
     }
     
     override func viewDidLoad() {
