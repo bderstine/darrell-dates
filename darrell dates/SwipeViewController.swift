@@ -10,6 +10,8 @@ import UIKit
 
 var matches = Matches()
 let fileHelper = FileDownloader()
+
+//Extend UIImageView to add a downloadFrom function
 extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         contentMode = mode
@@ -26,7 +28,6 @@ extension UIImageView {
     }
     func downloadedFrom(link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
         guard let url = URL(string: link) else { return }
-        print("Downloaded")
         downloadedFrom(url: url, contentMode: mode)
     }
 }
@@ -39,15 +40,14 @@ class SwipeViewController: UIViewController  {
     @IBOutlet weak var name: UILabel!
     var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", image: "me-main", name:"")
     
-    
+    //Get random image from server, add in adjectives to description
     fileprivate func getrandomImage() {
         let rand = Int( arc4random_uniform( UInt32( 262 ) ) )
         let baseURL = "https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg"
         let prepositions:[String] = ["Smug","Smiley", "Smirking", "Laughing", "Smiling"]
         name.text = "\(prepositions.randomElement()!) Darrell"
 
-        let imageURL = URL.init(string:baseURL)
-        image.downloadedFrom(url: imageURL!)
+        image.downloadedFrom(link: baseURL)
         
         potentialMatch = PotentialMatch(id: rand, description: "\(rand)", image: "me-main", name:"Darrell")
     }
@@ -71,6 +71,7 @@ class SwipeViewController: UIViewController  {
     override func viewDidAppear(_ animated: Bool) {
     }
 
+    //Like / dislike functions
     @objc func  dislike(tapGestureRecognizer: UITapGestureRecognizer ) {
         //dislikes still match 😆
         matches.addMatch(match: Match(imageLink: potentialMatch.matchImageString, id: potentialMatch.id, description: potentialMatch.matchDescription, matchName: potentialMatch.matchName, matchAge: 31   ))
