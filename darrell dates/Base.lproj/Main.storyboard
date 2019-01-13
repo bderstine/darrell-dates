@@ -106,7 +106,7 @@
         <!--Swipe-->
         <scene sceneID="bhG-62-Az0">
             <objects>
-                <viewController id="Q3T-ku-TwN" customClass="MatchViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q3T-ku-TwN" customClass="SwipeViewController" customModule="darrell_dates" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kdW-FE-a2Z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

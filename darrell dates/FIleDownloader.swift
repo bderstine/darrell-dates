@@ -28,6 +28,7 @@ class FileDownloader {
         var objData:UIImage = UIImage()
         let session = URLSession(configuration: .default)
         let url = URL(string: "https://i.imgur.com/w5rkSIj.jpg")
+        
         let downloadTask = session.dataTask(with: url!){(data,response,error) in
             
             if let e = error{
@@ -39,7 +40,6 @@ class FileDownloader {
                     if let file = data{
                         if let file = UIImage(data: file), self.type == "image"{
                             objData = file
-                            print(objData)
                         }
                         
                     }
@@ -48,6 +48,7 @@ class FileDownloader {
             }
         }
         downloadTask.resume()
+        
         
         return objData
     }

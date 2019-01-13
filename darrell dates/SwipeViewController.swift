@@ -10,9 +10,28 @@ import UIKit
 
 var matches = Matches()
 let fileHelper = FileDownloader()
+extension UIImageView {
+    func downloadedFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        contentMode = mode
+        URLSession.shared.dataTask(with: url) { (data, response, error) in
+            guard let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
+                let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
+                let data = data, error == nil,
+                let image = UIImage(data: data)
+                else { return }
+            DispatchQueue.main.async() { () -> Void in
+                self.image = image
+            }
+            }.resume()
+    }
+    func downloadedFrom(link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        guard let url = URL(string: link) else { return }
+        print("Downloaded")
+        downloadedFrom(url: url, contentMode: mode)
+    }
+}
 
-
-class MatchViewController: UIViewController  {
+class SwipeViewController: UIViewController  {
 
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var like: UILabel!
@@ -20,21 +39,17 @@ class MatchViewController: UIViewController  {
     @IBOutlet weak var name: UILabel!
     var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", image: "me-1", name:"")
     
+    
     fileprivate func getrandomImage() {
         let rand = Int( arc4random_uniform( UInt32( 262 ) ) )
         let baseURL = "https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg"
         let prepositions:[String] = ["Smug","Smiley", "Smirking", "Laughing", "Smiling"]
         name.text = "\(prepositions.randomElement()!) Darrell"
 
-        fileHelper.setDownloadTarget(url: baseURL)
-        fileHelper.setType(type: "image")
-        let downloadedImage = fileHelper.getData()
-        image.image = downloadedImage
-
+        let imageURL = URL.init(string:baseURL)
+        image.downloadedFrom(url: imageURL!)
         
         potentialMatch = PotentialMatch(id: rand, description: "\(rand)", image: "me-\(rand)", name:"Darrell")
-        
-        image.image = potentialMatch.matchImage
     }
     
     override func viewDidLoad() {
