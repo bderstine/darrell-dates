@@ -11,6 +11,8 @@ import UIKit
 var matches = Matches()
 var currentImage = UIImage()
 let fileHelper = FileDownloader()
+let IMAGE_COUNT = 388
+let IMAGE_COUNT_LANDSCAPE = 79
 
 
 //Extend UIImageView to add a downloadFrom function
@@ -46,17 +48,24 @@ class SwipeViewController: UIViewController  {
     
     //Get random image from server, add in adjectives to description
     fileprivate func getrandomImage() {
-        var rand = Int( arc4random_uniform( UInt32( 262 ) ) )
+        let choices = ["portrait", "landscape"];
+        let option = choices.randomElement();
+        
+        var rand = Int( arc4random_uniform( UInt32( option == "portrait" ? IMAGE_COUNT: IMAGE_COUNT_LANDSCAPE ) ) )
+        let baseURL = option == "portrait" ?"https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg" :"https://s3.amazonaws.com/date-darrell-images/me-landscape-\(rand).jpg"
+        
+        
         
         var seen = seenImages.contains(rand)
         while(seen){
             //print("Already saw \(rand), re-rolling")
-            rand = Int( arc4random_uniform( UInt32( 262 ) ) )
+            rand = Int( arc4random_uniform( UInt32( IMAGE_COUNT ) ) )
             //print("Got \(rand)")
             seen = seenImages.contains(rand)
         }
         seenImages.append(rand)
-        let baseURL = "https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg"
+        
+        print(baseURL)
         let prepositions:[String] = ["Smug","Smiley", "Smirking", "Laughing", "Smiling"]
         let names: [String] = ["Domoire", "Darrell", "Dom", "D"]
         name.text = "\(prepositions.randomElement()!) \(names.randomElement()!)"
