@@ -50,15 +50,16 @@ class SwipeViewController: UIViewController  {
         
         var seen = seenImages.contains(rand)
         while(seen){
-            print("Already saw \(rand), re-rolling")
+            //print("Already saw \(rand), re-rolling")
             rand = Int( arc4random_uniform( UInt32( 262 ) ) )
-            print("Got \(rand)")
+            //print("Got \(rand)")
             seen = seenImages.contains(rand)
         }
         seenImages.append(rand)
         let baseURL = "https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg"
         let prepositions:[String] = ["Smug","Smiley", "Smirking", "Laughing", "Smiling"]
-        name.text = "\(prepositions.randomElement()!) Darrell"
+        let names: [String] = ["Domoire", "Darrell", "Dom", "D"]
+        name.text = "\(prepositions.randomElement()!) \(names.randomElement()!)"
 
         image.downloadedFrom(link: baseURL)
         
