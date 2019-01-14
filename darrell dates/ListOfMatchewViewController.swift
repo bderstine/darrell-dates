@@ -22,9 +22,8 @@ class ListOfMatchewViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "tblView", for: indexPath)
         // Configure the cell...
-        cell.textLabel?.text = matches.getMatch(index: indexPath.row).name
-        let imageName = matches.getMatch(index: indexPath.row).matchImageString
-        cell.imageView?.image = UIImage(named: imageName)
+        cell.textLabel?.text = matches.getMatch(index: indexPath.row).matchName
+        cell.imageView?.image = matches.getMatch(index: indexPath.row).matchImage
         
         return cell
     }

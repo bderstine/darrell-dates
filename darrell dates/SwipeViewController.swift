@@ -9,7 +9,9 @@
 import UIKit
 
 var matches = Matches()
+var currentImage = UIImage()
 let fileHelper = FileDownloader()
+
 
 //Extend UIImageView to add a downloadFrom function
 extension UIImageView {
@@ -23,6 +25,7 @@ extension UIImageView {
                 else { return }
             DispatchQueue.main.async() { () -> Void in
                 self.image = image
+                currentImage = image
             }
             }.resume()
     }
@@ -38,7 +41,7 @@ class SwipeViewController: UIViewController  {
     @IBOutlet weak var like: UILabel!
     @IBOutlet weak var dislike: UILabel!
     @IBOutlet weak var name: UILabel!
-    var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", image: "me-main", name:"")
+    var potentialMatch:PotentialMatch = PotentialMatch(id: 0, description: "", name:"")
     
     //Get random image from server, add in adjectives to description
     fileprivate func getrandomImage() {
@@ -49,7 +52,8 @@ class SwipeViewController: UIViewController  {
 
         image.downloadedFrom(link: baseURL)
         
-        potentialMatch = PotentialMatch(id: rand, description: "\(rand)", image: "me-main", name:"Darrell")
+        potentialMatch = PotentialMatch(id: rand, description: "\(rand)", name:"Darrell")
+        potentialMatch.setImage(newImage: image.image!)
     }
     
     override func viewDidLoad() {
@@ -74,7 +78,7 @@ class SwipeViewController: UIViewController  {
     //Like / dislike functions
     @objc func  dislike(tapGestureRecognizer: UITapGestureRecognizer ) {
         //dislikes still match 😆
-        matches.addMatch(match: Match(imageLink: potentialMatch.matchImageString, id: potentialMatch.id, description: potentialMatch.matchDescription, matchName: potentialMatch.matchName, matchAge: 31   ))
+        matches.addMatch(match:potentialMatch)
         
         UILabel.animate(withDuration: 0.25, animations: { () -> Void in
             self.dislike.transform = CGAffineTransform(scaleX: 1.15, y: 1.15)
@@ -86,8 +90,7 @@ class SwipeViewController: UIViewController  {
         getrandomImage()
     }
     @objc func  like(tapGestureRecognizer: UITapGestureRecognizer) {
-        matches.addMatch(match: Match(imageLink: potentialMatch.matchImageString, id: potentialMatch.id, description: potentialMatch.matchDescription, matchName: potentialMatch.matchName, matchAge: 31   ))
-        
+        matches.addMatch(match:potentialMatch)
         UILabel.animate(withDuration: 0.25, animations: { () -> Void in
             self.like.transform = CGAffineTransform(scaleX: 1.15, y: 1.15)
         }) { (finished: Bool) -> Void in

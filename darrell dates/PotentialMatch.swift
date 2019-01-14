@@ -16,12 +16,13 @@ class PotentialMatch: NSObject {
     var matchName:String = ""
     var matchImage: UIImage = UIImage.init()
     
-    init(id:Int, description:String, image:String, name:String) {
+    init(id:Int, description:String, name:String) {
         self.id = id
         self.matchDescription = description
-        self.matchImageString = image
-        self.matchImage = (UIImage)(named: image)!
         self.matchName = name
+    }
+    func setImage(newImage:UIImage)->(){
+        self.matchImage = newImage
     }
     
 }
