@@ -51,10 +51,9 @@ class SwipeViewController: UIViewController  {
     
     //Get random image from server, add in adjectives to description
     fileprivate func getrandomImage() {
-        
         var rand = Int( arc4random_uniform( UInt32( IMAGE_COUNT ) ) )
         
-        let baseURL = "\(SERVER)\(SERVER_FOLDER)\\\(rand)\(FILE_TYPE)"
+        let baseURL = "\(SERVER)\(SERVER_FOLDER)/\(FILE_NAME_SCHEME)-\(rand)\(FILE_TYPE)"
 
         var seen = seenImages.contains(rand)
         while(seen){
