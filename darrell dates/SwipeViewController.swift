@@ -11,8 +11,11 @@ import UIKit
 var matches = Matches()
 var currentImage = UIImage()
 let fileHelper = FileDownloader()
-let IMAGE_COUNT = 388
-let IMAGE_COUNT_LANDSCAPE = 79
+let IMAGE_COUNT = 467
+let SERVER = "https://s3.amazonaws.com/"
+let SERVER_FOLDER = "date-a-clone"
+let FILE_NAME_SCHEME = "clone"
+let FILE_TYPE = ".jpg"
 
 
 //Extend UIImageView to add a downloadFrom function
@@ -48,14 +51,11 @@ class SwipeViewController: UIViewController  {
     
     //Get random image from server, add in adjectives to description
     fileprivate func getrandomImage() {
-        let choices = ["portrait", "landscape"];
-        let option = choices.randomElement();
         
-        var rand = Int( arc4random_uniform( UInt32( option == "portrait" ? IMAGE_COUNT: IMAGE_COUNT_LANDSCAPE ) ) )
-        let baseURL = option == "portrait" ?"https://s3.amazonaws.com/date-darrell-images/me-\(rand).jpg" :"https://s3.amazonaws.com/date-darrell-images/me-landscape-\(rand).jpg"
+        var rand = Int( arc4random_uniform( UInt32( IMAGE_COUNT ) ) )
         
-        
-        
+        let baseURL = "\(SERVER)\(SERVER_FOLDER)\\\(rand)\(FILE_TYPE)"
+
         var seen = seenImages.contains(rand)
         while(seen){
             //print("Already saw \(rand), re-rolling")

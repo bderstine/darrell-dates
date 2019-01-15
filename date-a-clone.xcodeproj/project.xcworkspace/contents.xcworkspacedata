@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:darrell dates.xcodeproj">
+      location = "self:/Users/ddefreitas/Documents/darrell dates/date-a-clone.xcodeproj">
    </FileRef>
 </Workspace>

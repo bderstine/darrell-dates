@@ -55,7 +55,7 @@
 		30535C9721AE616E008E43C3 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		30535C9921AE6196008E43C3 /* quotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
 		307A10D221E857FE00274DB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		30B871C021AA619B00A9EA3D /* darrell dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "darrell dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871C021AA619B00A9EA3D /* date-a-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "date-a-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871C321AA619B00A9EA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B871C521AA619B00A9EA3D /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		30B871C821AA619B00A9EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,10 +63,10 @@
 		30B871CD21AA619D00A9EA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B871D021AA619D00A9EA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B871D221AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "darrell datesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871D721AA619D00A9EA3D /* date-a-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "date-a-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871DB21AA619D00A9EA3D /* darrell_datesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesTests.swift; sourceTree = "<group>"; };
 		30B871DD21AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "darrell datesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B871E221AA619D00A9EA3D /* date-a-cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "date-a-cloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B871E621AA619D00A9EA3D /* darrell_datesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darrell_datesUITests.swift; sourceTree = "<group>"; };
 		30B871E821AA619D00A9EA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30BF3F1A21B11334000EFF5F /* bio.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = bio.plist; sourceTree = "<group>"; };
@@ -111,9 +111,9 @@
 		30B871C121AA619B00A9EA3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30B871C021AA619B00A9EA3D /* darrell dates.app */,
-				30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */,
-				30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */,
+				30B871C021AA619B00A9EA3D /* date-a-clone.app */,
+				30B871D721AA619D00A9EA3D /* date-a-cloneTests.xctest */,
+				30B871E221AA619D00A9EA3D /* date-a-cloneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30B871BF21AA619B00A9EA3D /* darrell dates */ = {
+		30B871BF21AA619B00A9EA3D /* date-a-clone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell dates" */;
+			buildConfigurationList = 30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-clone" */;
 			buildPhases = (
 				30B871BC21AA619B00A9EA3D /* Sources */,
 				30B871BD21AA619B00A9EA3D /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = "darrell dates";
+			name = "date-a-clone";
 			productName = "darrell dates";
-			productReference = 30B871C021AA619B00A9EA3D /* darrell dates.app */;
+			productReference = 30B871C021AA619B00A9EA3D /* date-a-clone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		30B871D621AA619D00A9EA3D /* darrell datesTests */ = {
+		30B871D621AA619D00A9EA3D /* date-a-cloneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesTests" */;
+			buildConfigurationList = 30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-cloneTests" */;
 			buildPhases = (
 				30B871D321AA619D00A9EA3D /* Sources */,
 				30B871D421AA619D00A9EA3D /* Frameworks */,
@@ -194,14 +194,14 @@
 			dependencies = (
 				30B871D921AA619D00A9EA3D /* PBXTargetDependency */,
 			);
-			name = "darrell datesTests";
+			name = "date-a-cloneTests";
 			productName = "darrell datesTests";
-			productReference = 30B871D721AA619D00A9EA3D /* darrell datesTests.xctest */;
+			productReference = 30B871D721AA619D00A9EA3D /* date-a-cloneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		30B871E121AA619D00A9EA3D /* darrell datesUITests */ = {
+		30B871E121AA619D00A9EA3D /* date-a-cloneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesUITests" */;
+			buildConfigurationList = 30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-cloneUITests" */;
 			buildPhases = (
 				30B871DE21AA619D00A9EA3D /* Sources */,
 				30B871DF21AA619D00A9EA3D /* Frameworks */,
@@ -212,9 +212,9 @@
 			dependencies = (
 				30B871E421AA619D00A9EA3D /* PBXTargetDependency */,
 			);
-			name = "darrell datesUITests";
+			name = "date-a-cloneUITests";
 			productName = "darrell datesUITests";
-			productReference = 30B871E221AA619D00A9EA3D /* darrell datesUITests.xctest */;
+			productReference = 30B871E221AA619D00A9EA3D /* date-a-cloneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "darrell dates" */;
+			buildConfigurationList = 30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "date-a-clone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,9 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30B871BF21AA619B00A9EA3D /* darrell dates */,
-				30B871D621AA619D00A9EA3D /* darrell datesTests */,
-				30B871E121AA619D00A9EA3D /* darrell datesUITests */,
+				30B871BF21AA619B00A9EA3D /* date-a-clone */,
+				30B871D621AA619D00A9EA3D /* date-a-cloneTests */,
+				30B871E121AA619D00A9EA3D /* date-a-cloneUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		30B871D921AA619D00A9EA3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30B871BF21AA619B00A9EA3D /* darrell dates */;
+			target = 30B871BF21AA619B00A9EA3D /* date-a-clone */;
 			targetProxy = 30B871D821AA619D00A9EA3D /* PBXContainerItemProxy */;
 		};
 		30B871E421AA619D00A9EA3D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 30B871BF21AA619B00A9EA3D /* darrell dates */;
+			target = 30B871BF21AA619B00A9EA3D /* date-a-clone */;
 			targetProxy = 30B871E321AA619D00A9EA3D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -487,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-dates";
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.date-a-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,7 +505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.darrell-dates";
+				PRODUCT_BUNDLE_IDENTIFIER = "defreitas.date-a-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,7 +529,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darrell dates.app/darrell dates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/date-a-clone.app/date-a-clone";
 			};
 			name = Debug;
 		};
@@ -550,7 +550,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darrell dates.app/darrell dates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/date-a-clone.app/date-a-clone";
 			};
 			name = Release;
 		};
@@ -597,7 +597,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "darrell dates" */ = {
+		30B871BB21AA619B00A9EA3D /* Build configuration list for PBXProject "date-a-clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30B871E921AA619D00A9EA3D /* Debug */,
@@ -606,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell dates" */ = {
+		30B871EB21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30B871EC21AA619D00A9EA3D /* Debug */,
@@ -615,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesTests" */ = {
+		30B871EE21AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-cloneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30B871EF21AA619D00A9EA3D /* Debug */,
@@ -624,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "darrell datesUITests" */ = {
+		30B871F121AA619D00A9EA3D /* Build configuration list for PBXNativeTarget "date-a-cloneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30B871F221AA619D00A9EA3D /* Debug */,
